@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping make the open GTM-skills library better.
+Thanks for helping make OpenGTM better.
 
 ## Add or edit a skill
 

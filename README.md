@@ -2,7 +2,7 @@
   <img src="assets/chronos-logo.png" alt="Chronos" width="104" height="104" />
 </p>
 
-<h1 align="center">GTM Skills</h1>
+<h1 align="center">OpenGTM</h1>
 
 <p align="center">
   <strong>Open-source go-to-market skills for any AI agent. Built by <a href="https://chronos.ro">Chronos</a>.</strong><br/>
@@ -82,17 +82,17 @@ playbook to the exact tools that run it.
 ### Option A: Claude Code plugin (one line)
 
 ```bash
-claude plugin marketplace add NadavShanun-design/gtm-skills
-claude plugin install gtm-skills@gtm-skills
+claude plugin marketplace add NadavShanun-design/opengtm
+claude plugin install opengtm@opengtm
 ```
 
-Skills then load automatically; invoke e.g. `/gtm-skills:cold-email-writing`.
+Skills then load automatically; invoke e.g. `/opengtm:cold-email-writing`.
 
 ### Option B: Universal (any agent that reads `SKILL.md`)
 
 ```bash
-git clone https://github.com/NadavShanun-design/gtm-skills.git
-cd gtm-skills
+git clone https://github.com/NadavShanun-design/opengtm.git
+cd opengtm
 bash install.sh                 # -> ~/.claude/skills
 bash install.sh --codex         # -> ~/.agents/skills (Codex / cross-runtime)
 DEST=/custom/path bash install.sh

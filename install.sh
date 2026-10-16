@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install the Chronos GTM skills into your agent's skills directory.
+# Install the OpenGTM skills into your agent's skills directory.
 #
 # Usage:
 #   bash install.sh                 # install to ~/.claude/skills (Claude Code)
