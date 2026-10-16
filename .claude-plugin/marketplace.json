@@ -1,0 +1,15 @@
+{
+  "name": "chronos-skills",
+  "description": "Open-source go-to-market skills for AI agents, by Chronos.",
+  "owner": {
+    "name": "Chronos",
+    "url": "https://chronos.ro"
+  },
+  "plugins": [
+    {
+      "name": "chronos-gtm",
+      "source": "./",
+      "description": "17 GTM skills — ICP, positioning, cold email, deliverability, LinkedIn, multichannel sequences, personalization, reply handling, SEO/GEO, and metrics. Free knowledge; optionally connect the Chronos MCP to execute."
+    }
+  ]
+}
