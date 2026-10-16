@@ -103,6 +103,19 @@ DEST=/custom/path bash install.sh
 They're just folders. Copy any `skills/<name>/` into your agent's skills
 directory (`~/.claude/skills/`, `~/.agents/skills/`, or your tool's equivalent).
 
+### Option D: Any other agent (Cursor, Windsurf, Cline, Zed, Claude Desktop, …)
+
+Add the zero-dependency **MCP server** so any MCP-capable agent can load the skills:
+
+```json
+{ "mcpServers": { "opengtm": { "command": "node", "args": ["/abs/path/to/opengtm/mcp/server.mjs"] } } }
+```
+
+Or use a universal surface that fits any runtime: paste **[`dist/opengtm.md`](dist/opengtm.md)**
+(every skill in one file), parse **[`index.json`](index.json)**, or point the agent at
+**[`AGENTS.md`](AGENTS.md)** / **[`llms.txt`](llms.txt)**. Full per-agent recipes:
+**[INTEGRATE.md](INTEGRATE.md)**.
+
 ---
 
 ## Give your agent hands (optional)

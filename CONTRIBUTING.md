@@ -28,10 +28,14 @@ Thanks for helping make OpenGTM better.
 ## Validate before you PR
 
 ```bash
+# regenerate index.json, llms.txt, and dist/opengtm.md after editing any skill
+node tools/build.mjs
 # frontmatter + structure
 node tools/validate-skills.mjs .
 # the Claude Code plugin + marketplace manifest
 claude plugin validate .
+# the MCP server still starts and serves every skill
+node tools/validate-skills.mjs . && node mcp/server.mjs < /dev/null
 # try installing locally
 bash install.sh
 ```

@@ -1,0 +1,46 @@
+{
+  "name": "opengtm",
+  "version": "1.0.0",
+  "description": "OpenGTM: open-source go-to-market skills for AI agents, by Chronos. Ships a zero-dependency MCP server, a single-file bundle, and a machine-readable manifest so it integrates into any agent.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "opengtm-mcp": "mcp/server.mjs"
+  },
+  "files": [
+    "skills",
+    "mcp",
+    "dist",
+    "tools",
+    "index.json",
+    "llms.txt",
+    "AGENTS.md",
+    "CONNECT-CHRONOS.md",
+    "INTEGRATE.md"
+  ],
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "validate": "node tools/validate-skills.mjs .",
+    "mcp": "node mcp/server.mjs"
+  },
+  "keywords": [
+    "gtm",
+    "go-to-market",
+    "sales",
+    "marketing",
+    "outbound",
+    "cold-email",
+    "seo",
+    "geo",
+    "agent-skills",
+    "mcp"
+  ],
+  "homepage": "https://github.com/NadavShanun-design/opengtm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadavShanun-design/opengtm.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
