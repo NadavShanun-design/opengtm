@@ -1,12 +1,12 @@
 {
-  "name": "chronos-gtm",
-  "description": "Open-source go-to-market skills for AI agents: ICP, cold email, LinkedIn, multichannel sequences, deliverability, reply handling, SEO/GEO, and metrics. Free knowledge; optionally connect the Chronos MCP to execute.",
+  "name": "gtm-skills",
+  "description": "Open-source go-to-market skills for AI agents: ICP, cold email, LinkedIn, multichannel sequences, deliverability, reply handling, SEO/GEO, and metrics. Free knowledge; optionally connect the Chronos MCP to execute. Built by Chronos.",
   "version": "1.0.0",
   "author": {
     "name": "Chronos",
     "url": "https://chronos.ro"
   },
-  "homepage": "https://github.com/NadavShanun-design/chronos-skills",
+  "homepage": "https://github.com/NadavShanun-design/gtm-skills",
   "license": "MIT",
   "keywords": [
     "gtm",
