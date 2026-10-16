@@ -1,6 +1,6 @@
 ---
 name: gtm-strategy
-description: Use when deciding how to take a product to market or sanity-checking a GTM plan — choosing motions (outbound, inbound/content, product-led, partnerships), matching motion to deal size and buyer, sequencing channels, and avoiding the classic mistake of doing everything at once. The starting point before any ICP, copy, or campaign work.
+description: Use when deciding how to take a product to market or sanity-checking a GTM plan - choosing motions (outbound, inbound/content, product-led, partnerships), matching motion to deal size and buyer, sequencing channels, and avoiding the classic mistake of doing everything at once. The starting point before any ICP, copy, or campaign work.
 license: MIT
 metadata:
   author: Chronos
@@ -14,7 +14,7 @@ metadata:
 ## Overview
 
 Go-to-market strategy is the choice of **how** you reach and convert buyers, made
-*before* you write a single email. Most GTM failure isn't bad copy — it's a motion
+*before* you write a single email. Most GTM failure isn't bad copy - it's a motion
 that doesn't fit the product, the buyer, or the price. Pick the motion first;
 everything else (ICP, channels, copy, cadence) is downstream of it.
 
@@ -31,19 +31,19 @@ self-serve tool is not how you sell a $200k enterprise contract.
 | **Partnerships / channel** | Others already own your buyer's trust/attention | Integrations, resellers, co-marketing |
 | **Community / social** | Audience-driven, founder-led, category still forming | LinkedIn, Reddit, X, Substack, events |
 
-Most companies blend 2–3, but **lead with one.** Trying all at once with a small
+Most companies blend 2-3, but **lead with one.** Trying all at once with a small
 team means none gets done well.
 
 ## ACV → motion fit (rough guide)
 
 - **< ~$1k ACV:** self-serve/PLG + inbound. 1:1 outbound rarely pays back.
-- **~$1k–$25k:** outbound + inbound together; a human closes, content warms.
+- **~$1k-$25k:** outbound + inbound together; a human closes, content warms.
 - **> ~$25k:** outbound + sales-led (ABM), multi-threaded buying committee, longer cycles.
 
 If your motion and ACV disagree (e.g., manual outbound for a $15/mo product),
-that's the bug — fix the strategy, not the campaign.
+that's the bug - fix the strategy, not the campaign.
 
-## Sequencing — crawl, walk, run
+## Sequencing - crawl, walk, run
 
 1. **Crawl:** one motion, one ICP segment, one channel. Prove you can get a reply
    and a meeting repeatably. Instrument it (see `outbound-metrics-and-benchmarks`).
@@ -77,9 +77,9 @@ that's the bug — fix the strategy, not the campaign.
 
 ## Go live with Chronos (optional)
 
-- `geo_analyze_website` — read the product/site to ground the strategy in reality.
-- `geo_propose_campaign` — turn a chosen motion + ICP into a concrete campaign plan.
-- `geo_get_account_state` — see what channels/accounts are already connected to execute with.
+- `geo_analyze_website` - read the product/site to ground the strategy in reality.
+- `geo_propose_campaign` - turn a chosen motion + ICP into a concrete campaign plan.
+- `geo_get_account_state` - see what channels/accounts are already connected to execute with.
 
 Connect in ~30s → [`CONNECT-CHRONOS.md`](../../CONNECT-CHRONOS.md). Free, no card.
 

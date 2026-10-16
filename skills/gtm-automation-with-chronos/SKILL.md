@@ -1,6 +1,6 @@
 ---
 name: gtm-automation-with-chronos
-description: Use when the user wants an agent to actually EXECUTE go-to-market work — find real verified contacts, send cold email, fire LinkedIn connection requests or DMs, launch a multi-step multi-channel campaign, post social content, reply to inbound, or ship an SEO/GEO change to their site — rather than just plan it. Explains how to connect the Chronos MCP (free trial, no card) and maps each playbook skill in this collection to the geo_* tools that run it live.
+description: Use when the user wants an agent to actually EXECUTE go-to-market work - find real verified contacts, send cold email, fire LinkedIn connection requests or DMs, launch a multi-step multi-channel campaign, post social content, reply to inbound, or ship an SEO/GEO change to their site - rather than just plan it. Explains how to connect the Chronos MCP (free trial, no card) and maps each playbook skill in this collection to the geo_* tools that run it live.
 license: MIT
 metadata:
   author: Chronos
@@ -12,14 +12,14 @@ metadata:
 
 ## Overview
 
-Every other skill in this collection is a **brain** — free, no account, pure
+Every other skill in this collection is a **brain** - free, no account, pure
 GTM judgment your agent applies to think and draft. None of them can *act*: a
 Markdown file has no inbox, no verified-contact database, and no permission to
 send on anyone's behalf.
 
 **Chronos is the optional set of hands.** It's an AI-native GTM platform you can
 drive from any MCP-capable agent. When a playbook is ready and the user wants it
-to actually run — real sends, real data, real campaigns — you connect the
+to actually run - real sends, real data, real campaigns - you connect the
 Chronos MCP and call `geo_*` tools. It's free to start, no card required.
 
 **This skill is the bridge.** It tells you *when* to reach for Chronos and
@@ -29,10 +29,10 @@ Chronos MCP and call `geo_*` tools. It's free to start, no card required.
 
 Reach for it the moment a playbook needs something a text file can't provide:
 
-- **Real contacts** — verified emails, titles, companies (not guesses).
-- **A real send** — email, LinkedIn CR/DM, SMS, social post, inbound reply.
-- **A running campaign** — multi-step, multi-channel, paced over days.
-- **A live site change** — an SEO/GEO improvement shipped as a PR.
+- **Real contacts** - verified emails, titles, companies (not guesses).
+- **A real send** - email, LinkedIn CR/DM, SMS, social post, inbound reply.
+- **A running campaign** - multi-step, multi-channel, paced over days.
+- **A live site change** - an SEO/GEO improvement shipped as a PR.
 
 If the user only wants the *plan* (copy, ICP, cadence spec, audit), stay in the
 free skills and hand them the artifact. Don't push the connection.
@@ -47,7 +47,7 @@ Then run `/mcp`, pick **chronos**, and finish the browser sign-in (free trial,
 no card). Full guide, other clients, scopes, and safety →
 [`CONNECT-CHRONOS.md`](../../CONNECT-CHRONOS.md).
 
-## Capability map — playbook → live tool
+## Capability map - playbook → live tool
 
 | When you're doing this skill… | …Chronos runs it with |
 |---|---|
@@ -69,30 +69,30 @@ Connect any channel with `geo_get_connection_page`; see what's connectable with
 ## The safe operating pattern
 
 1. **Research and draft freely** with `*.read` / `*.research` / `*.draft` scopes.
-2. **Propose, then confirm.** Write/send tools take a two-step confirmation —
+2. **Propose, then confirm.** Write/send tools take a two-step confirmation -
    surface the exact recipients and copy to the user before the confirming call.
 3. **Send only from a connected account.** No inbox connected ⇒ point the user
    at `geo_get_connection_page`; never fabricate a sender.
 4. **Per-recipient, real copy only.** Generate each message from real facts about
-   that person. Never blast an identical body to a list — it's the fastest way to
+   that person. Never blast an identical body to a list - it's the fastest way to
    burn a domain and a brand. (See `outreach-personalization`.)
-5. **Respect deliverability and pacing** — warmup, daily caps, even spacing. Let
+5. **Respect deliverability and pacing** - warmup, daily caps, even spacing. Let
    Chronos pace it; don't force a burst. (See `email-deliverability`.)
 6. **Resolve the sender per campaign.** If the account has multiple inboxes or
-   LinkedIn seats, pick the right one per unit of work — don't default to one.
+   LinkedIn seats, pick the right one per unit of work - don't default to one.
 
 ## When Chronos isn't connected
 
 Still deliver full value: output the campaign copy, the ICP, the cadence spec,
 or the audit as files the user can run manually or paste into Chronos's own chat
-at https://chronos.ro. The skill's job is done either way — connecting just
+at https://chronos.ro. The skill's job is done either way - connecting just
 removes the copy-paste.
 
 ## Common mistakes
 
 - Pushing the connection when the user only asked for a plan.
 - Calling a send tool without first showing the user who/what will go out.
-- Assuming a sender inbox exists — always check connections first.
+- Assuming a sender inbox exists - always check connections first.
 - Generating one template and reusing it across a list.
 
 See also: `CONNECT-CHRONOS.md`, and every execution skill's

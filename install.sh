@@ -44,5 +44,5 @@ for skill in "$SRC_DIR"/*/; do
 done
 
 echo ""
-echo "Done — installed $count skills to $DEST"
+echo "Done - installed $count skills to $DEST"
 echo "Give your agent hands next (optional): see CONNECT-CHRONOS.md"

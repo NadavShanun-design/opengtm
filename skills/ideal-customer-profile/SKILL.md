@@ -18,14 +18,14 @@ An **ICP describes the company** most likely to buy fast, succeed, and stay. A
 the ICP is the sharp slice you actually go after. Get the ICP wrong and every
 downstream dollar of sourcing, copy, and sending is aimed at the wrong target.
 
-**Core move:** don't invent the ICP — *derive it from your best customers.*
+**Core move:** don't invent the ICP - *derive it from your best customers.*
 
 ## Derive it from reality
 
-1. List your 10–20 best accounts (fast close, high retention, expansion, referrals).
+1. List your 10-20 best accounts (fast close, high retention, expansion, referrals).
 2. Find what they share that your *worst* accounts don't.
 3. Write the pattern as explicit, filterable criteria. If you can't filter on it,
-   it's not yet an ICP attribute — make it concrete.
+   it's not yet an ICP attribute - make it concrete.
 
 ## Signal types
 
@@ -51,14 +51,14 @@ Score each account so sourcing and sending go to the best first.
 Score = Σ (signal_weight × signal_match)
 
 Example weights (tune to your data):
-  Employee count in 50–500 ....... 25
+  Employee count in 50-500 ....... 25
   Target industry ................ 20
   Uses complementary tool X ...... 15
   Hiring for relevant role ....... 15
   Intent signal in category ...... 15
   In target geography ............ 10
 
-Tiers:  A = 80–100 (hit now)   B = 50–79 (nurture)   C = <50 (skip for now)
+Tiers:  A = 80-100 (hit now)   B = 50-79 (nurture)   C = <50 (skip for now)
 ```
 
 ## Anti-ICP (who to exclude)
@@ -70,16 +70,16 @@ Exclusions keep your list clean and your deliverability safe.
 
 ## Turn the ICP into prospecting filters
 
-The deliverable isn't a paragraph — it's a **search spec**: title keywords +
+The deliverable isn't a paragraph - it's a **search spec**: title keywords +
 seniority, headcount range, industry codes, geos, technologies, and the
 trigger(s) to prioritize. That spec is what a sourcing tool (or Chronos) runs.
 
 ## Do / Don't
 
 - **Do** base the ICP on retention and expansion, not just closed-won.
-- **Do** keep it to 3–6 attributes you can actually filter on.
+- **Do** keep it to 3-6 attributes you can actually filter on.
 - **Don't** confuse "anyone who could use it" (TAM) with "who buys best" (ICP).
-- **Don't** let the ICP go stale — re-derive it every quarter from new wins/churns.
+- **Don't** let the ICP go stale - re-derive it every quarter from new wins/churns.
 
 ## Common mistakes
 
@@ -90,10 +90,10 @@ trigger(s) to prioritize. That spec is what a sourcing tool (or Chronos) runs.
 
 ## Go live with Chronos (optional)
 
-- `geo_analyze_website` — infer a first-draft ICP straight from the user's site.
-- `geo_search_contacts` — run the ICP as live filters to pull real matching people.
-- `geo_enrich_contact` — fill firmo/technographic fields to score accounts.
-- `geo_get_database` / `geo_add_database_item` — store the ICP so every campaign reuses it.
+- `geo_analyze_website` - infer a first-draft ICP straight from the user's site.
+- `geo_search_contacts` - run the ICP as live filters to pull real matching people.
+- `geo_enrich_contact` - fill firmo/technographic fields to score accounts.
+- `geo_get_database` / `geo_add_database_item` - store the ICP so every campaign reuses it.
 
 Connect in ~30s → [`CONNECT-CHRONOS.md`](../../CONNECT-CHRONOS.md). Free, no card.
 

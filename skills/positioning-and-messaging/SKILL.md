@@ -1,6 +1,6 @@
 ---
 name: positioning-and-messaging
-description: Use when sharpening how a product is positioned and described — the value proposition, differentiation, the message that makes a buyer care, and competitive framing / battlecards. Covers April Dunford's positioning components, the before/after/bridge value frame, a message house, and translating positioning into the one line that opens outreach.
+description: Use when sharpening how a product is positioned and described - the value proposition, differentiation, the message that makes a buyer care, and competitive framing / battlecards. Covers April Dunford's positioning components, the before/after/bridge value frame, a message house, and translating positioning into the one line that opens outreach.
 license: MIT
 metadata:
   author: Chronos
@@ -25,14 +25,14 @@ that gets them from a painful "before" to a better "after."
 
 Work these out explicitly before writing any copy:
 
-1. **Competitive alternatives** — what the buyer would do without you (often a
+1. **Competitive alternatives** - what the buyer would do without you (often a
    spreadsheet, a manual process, or "nothing"). This defines the real comparison.
-2. **Unique attributes** — the capabilities only you (or few) have.
-3. **Value** — what those attributes *do for the buyer*, in their terms.
-4. **Target customer** — who cares most about that value (ties to `ideal-customer-profile`).
-5. **Market category** — the frame of reference that makes your value obvious.
+2. **Unique attributes** - the capabilities only you (or few) have.
+3. **Value** - what those attributes *do for the buyer*, in their terms.
+4. **Target customer** - who cares most about that value (ties to `ideal-customer-profile`).
+5. **Market category** - the frame of reference that makes your value obvious.
 
-The insight: **value comes from the gap between you and the real alternative** —
+The insight: **value comes from the gap between you and the real alternative** -
 not from a feature list in a vacuum.
 
 ## The value proposition (before/after/bridge)
@@ -56,13 +56,13 @@ One structure that keeps everything consistent:
 
 - **One-liner:** what you are + the value, in a sentence a buyer repeats.
 - **3 pillars:** the differentiated reasons it's true.
-- **Proof:** a stat, customer, or demo under each pillar (see `generative-engine-optimization` — quotable proof also wins AI citations).
+- **Proof:** a stat, customer, or demo under each pillar (see `generative-engine-optimization` - quotable proof also wins AI citations).
 
 ## Differentiation & battlecards
 
 For each real alternative, keep a one-page battlecard: where you win, where they
 win (be honest), the trap questions, and the one-line reframe. Honesty builds
-trust and survives the buyer's own research — overclaiming doesn't.
+trust and survives the buyer's own research - overclaiming doesn't.
 
 ## From positioning to the outreach line
 
@@ -76,7 +76,7 @@ that line, the positioning isn't sharp yet.
 - **Do** define the real alternative first; value is the gap from it.
 - **Do** lead with the buyer's outcome, not your features.
 - **Don't** position against a category the buyer doesn't use (strawman).
-- **Don't** claim to be best at everything — pick the ground you win on.
+- **Don't** claim to be best at everything - pick the ground you win on.
 
 ## Common mistakes
 
@@ -87,9 +87,9 @@ that line, the positioning isn't sharp yet.
 
 ## Go live with Chronos (optional)
 
-- `geo_analyze_website` — extract current positioning from the site as a starting point.
-- `geo_set_personality` — lock the voice so every generated message stays on-message.
-- `geo_add_document` / `geo_add_database_item` — store positioning, pillars, and proof so all copy draws from them.
+- `geo_analyze_website` - extract current positioning from the site as a starting point.
+- `geo_set_personality` - lock the voice so every generated message stays on-message.
+- `geo_add_document` / `geo_add_database_item` - store positioning, pillars, and proof so all copy draws from them.
 
 Connect in ~30s → [`CONNECT-CHRONOS.md`](../../CONNECT-CHRONOS.md). Free, no card.
 

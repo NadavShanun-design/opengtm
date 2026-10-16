@@ -1,6 +1,6 @@
 ---
 name: linkedin-outreach
-description: Use when reaching prospects on LinkedIn — connection requests, DMs, engaging with their posts, and social selling. Covers the no-pitch-first rule, comment-before-connect, profile-based personalization, note vs no-note invites, respecting LinkedIn's invite limits and account safety, and a sane follow-up cadence. For overall cadence design see multichannel-sequences.
+description: Use when reaching prospects on LinkedIn - connection requests, DMs, engaging with their posts, and social selling. Covers the no-pitch-first rule, comment-before-connect, profile-based personalization, note vs no-note invites, respecting LinkedIn's invite limits and account safety, and a sane follow-up cadence. For overall cadence design see multichannel-sequences.
 license: MIT
 metadata:
   author: Chronos
@@ -25,14 +25,14 @@ is to get accepted.
 
 1. **Engage before you connect.** View the profile, then leave one genuine,
    specific comment on a recent post. You become a familiar name before you ask.
-2. **Send the invite.** A note barely moves *acceptance* either way — but a
+2. **Send the invite.** A note barely moves *acceptance* either way - but a
    *relevant* note (about them, never a pitch) can roughly double your *reply*
    rate after they accept. Keep any note under ~300 characters.
-   ("Enjoyed your post on X — keen to follow your work.")
+   ("Enjoyed your post on X - keen to follow your work.")
 3. **Wait for accept. Then still don't pitch.** First DM is a human opener that
    references why you connected. Earn the reply.
 4. **Then, one soft ask** tied to a real reason. One ask, like email.
-5. **Follow up 1–2 times max,** spaced days apart, each adding value.
+5. **Follow up 1-2 times max,** spaced days apart, each adding value.
 
 ## Personalize from the profile
 
@@ -44,14 +44,14 @@ mutual connections, what they say matters. One true, specific reference beats an
 
 - LinkedIn **caps connection invites.** LinkedIn itself publishes no number; the
   widely practitioner-observed ceiling is **~100 invites/week** (rolling 7 days).
-  Safe pace is **~10–25/day**, and **new accounts should ramp from ~5–10/day.**
-  Going over triggers a (typically one-week) restriction — and withdrawing
+  Safe pace is **~10-25/day**, and **new accounts should ramp from ~5-10/day.**
+  Going over triggers a (typically one-week) restriction - and withdrawing
   pending invites does **not** lift it.
-- **Warm up a new/automated account slowly** — low activity first, ramp over
+- **Warm up a new/automated account slowly** - low activity first, ramp over
   weeks, mix real browsing and engagement with outreach.
 - Withdraw stale pending invites periodically (a high pending/ignored ratio
   hurts you).
-- Never run aggressive automation that mimics a bot — human-paced, business-hours,
+- Never run aggressive automation that mimics a bot - human-paced, business-hours,
   with natural gaps.
 
 ## Social selling (the long game)
@@ -66,7 +66,7 @@ outreach.
 - **Do** comment on a post before connecting, and keep the invite pitch-free.
 - **Do** stay under the weekly invite limit and pace like a human.
 - **Don't** pitch in the connection note or the first DM.
-- **Don't** auto-blast invites — it's the fastest way to a restricted account.
+- **Don't** auto-blast invites - it's the fastest way to a restricted account.
 
 ## Common mistakes
 
@@ -77,12 +77,12 @@ outreach.
 
 ## Go live with Chronos (optional)
 
-- `geo_linkedin_search` — find prospects matching your ICP on LinkedIn.
-- `geo_linkedin_get_prospect_profile` / `geo_linkedin_list_prospect_posts` — pull the facts to personalize.
-- `geo_linkedin_comment_on_post` / `geo_linkedin_react_to_post` — engage before connecting.
-- `geo_linkedin_send_connection_request` — send paced, note-optional invites.
-- `geo_automate_linkedin_dms` / `geo_send_paced_dm_batch` — paced, human-timed DMs (never bursts).
-- `geo_set_linkedin_autoenroll`, `geo_list_linkedin_dms`, `geo_stop_linkedin_followups` — manage the flow.
+- `geo_linkedin_search` - find prospects matching your ICP on LinkedIn.
+- `geo_linkedin_get_prospect_profile` / `geo_linkedin_list_prospect_posts` - pull the facts to personalize.
+- `geo_linkedin_comment_on_post` / `geo_linkedin_react_to_post` - engage before connecting.
+- `geo_linkedin_send_connection_request` - send paced, note-optional invites.
+- `geo_automate_linkedin_dms` / `geo_send_paced_dm_batch` - paced, human-timed DMs (never bursts).
+- `geo_set_linkedin_autoenroll`, `geo_list_linkedin_dms`, `geo_stop_linkedin_followups` - manage the flow.
 
 Chronos paces LinkedIn actions to stay within safe limits on your connected seat.
 

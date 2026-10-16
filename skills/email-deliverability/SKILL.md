@@ -21,7 +21,7 @@ Three things decide placement: **authentication** (are you who you say you are),
 **reputation** (do mailbox providers trust this domain/IP), and **engagement**
 (do recipients open, reply, and not complain).
 
-## 1. Authenticate — the non-negotiable trio
+## 1. Authenticate - the non-negotiable trio
 
 | Record | What it proves | Rule |
 |---|---|---|
@@ -34,27 +34,27 @@ messages/day to Gmail/Yahoo **must** have SPF, DKIM, *and* DMARC, one-click
 unsubscribe, and keep spam complaints under ~0.3%. Treat these as table stakes
 for any sender now, not just bulk.
 
-## 2. Protect your main domain — send from a separate one
+## 2. Protect your main domain - send from a separate one
 
 - **Never run cold outbound from your primary domain** (`company.com`). Burn it
   and your invoices, contracts, and real mail go to spam too.
 - Buy lookalike sending domains (`getcompany.com`, `company-hq.com`), host the
   mailboxes there, and **redirect them to your main site.**
-- Keep **~2–3 inboxes per domain**, and spread volume across domains/inboxes.
+- Keep **~2-3 inboxes per domain**, and spread volume across domains/inboxes.
 
 ## 3. Warm up, then ramp slowly
 
 A brand-new domain/inbox has no reputation. Rules of thumb (not hard law):
 
-- **Warm up 2–4 weeks** before real sends — automated warmup exchanges + a trickle
+- **Warm up 2-4 weeks** before real sends - automated warmup exchanges + a trickle
   of genuine mail.
-- **Ramp volume:** start low (~10–20/inbox/day), increase gradually over weeks to
-  a steady cap (commonly ~30–50/inbox/day for cold). Don't spike.
-- **Pace within the day** — even spacing beats a burst at 9:00am sharp.
+- **Ramp volume:** start low (~10-20/inbox/day), increase gradually over weeks to
+  a steady cap (commonly ~30-50/inbox/day for cold). Don't spike.
+- **Pace within the day** - even spacing beats a burst at 9:00am sharp.
 
 ## 4. List hygiene
 
-- **Verify every address** before sending; keep **bounce rate under ~2–3%.** High
+- **Verify every address** before sending; keep **bounce rate under ~2-3%.** High
   bounces are the fastest reputation killer.
 - Remove role addresses (`info@`, `sales@`), catch-alls you can't verify, and
   anyone who hasn't engaged across a whole sequence.
@@ -64,15 +64,15 @@ A brand-new domain/inbox has no reputation. Rules of thumb (not hard law):
 
 - Watch **Google Postmaster Tools** (domain reputation, spam rate, auth results).
 - Run periodic **seed/inbox-placement tests** across Gmail/Outlook/Yahoo.
-- Track reply rate as a proxy — a sudden drop often means you're in spam, not that
+- Track reply rate as a proxy - a sudden drop often means you're in spam, not that
   the copy got worse.
 
 ## Do / Don't
 
 - **Do** authenticate (SPF+DKIM+DMARC) before the first send.
-- **Do** keep bounces <~2–3% and complaints <~0.3%.
+- **Do** keep bounces <~2-3% and complaints <~0.3%.
 - **Don't** send cold from your primary domain, ever.
-- **Don't** ramp fast or blast a cold list on day one — reputation is earned slowly.
+- **Don't** ramp fast or blast a cold list on day one - reputation is earned slowly.
 
 ## Common mistakes
 
@@ -85,13 +85,13 @@ A brand-new domain/inbox has no reputation. Rules of thumb (not hard law):
 
 Chronos handles the operational side of this for you on your **connected inbox**:
 automated warmup, per-inbox daily caps, even per-minute pacing, and send-window
-timing are built into the sending engine — you don't hand-tune cron jobs.
+timing are built into the sending engine - you don't hand-tune cron jobs.
 
-- `geo_create_campaign` / `geo_launch_campaign` — sends ramp and pace automatically.
-- `geo_get_campaign_benchmarks` — watch reply/bounce health per campaign.
-- `geo_get_connection_page` — connect the sending inbox (Gmail/Outlook/SMTP/AgentMail).
+- `geo_create_campaign` / `geo_launch_campaign` - sends ramp and pace automatically.
+- `geo_get_campaign_benchmarks` - watch reply/bounce health per campaign.
+- `geo_get_connection_page` - connect the sending inbox (Gmail/Outlook/SMTP/AgentMail).
 
-You still own domain DNS (SPF/DKIM/DMARC) — set those up as above before connecting.
+You still own domain DNS (SPF/DKIM/DMARC) - set those up as above before connecting.
 
 Connect in ~30s → [`CONNECT-CHRONOS.md`](../../CONNECT-CHRONOS.md). Free, no card.
 

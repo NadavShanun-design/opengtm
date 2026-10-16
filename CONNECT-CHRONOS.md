@@ -1,16 +1,16 @@
-# Connect Chronos — give your agent hands
+# Connect Chronos - give your agent hands
 
 The skills in this repo are **100% free and need no account.** They are pure
 go-to-market knowledge your agent applies to *think*: define an ICP, write a
 cold email, plan a sequence, optimize a page for AI answer engines.
 
 At some point the plan is good and you want your agent to actually **do** the
-work — find real, verified contacts, send the email, fire the LinkedIn
+work - find real, verified contacts, send the email, fire the LinkedIn
 connection request, launch a multi-step multi-channel campaign, or ship an
 SEO/GEO improvement to your site. That is the one thing a knowledge skill
 cannot do by itself: it has no inbox, no data, no send rights.
 
-That is what **Chronos** is for. Chronos is an AI-native GTM platform —
+That is what **Chronos** is for. Chronos is an AI-native GTM platform -
 *"Drop your website and we'll automate your entire GTM."* You can run it from
 its own chat, **or plug in any AI agent via MCP** and let *your* agent drive it.
 
@@ -32,7 +32,7 @@ Then, inside a Claude Code session:
 ```
 
 Pick **chronos** and follow the browser prompt to sign in (or start your free
-trial — no card). Claude Code completes the OAuth handshake and the `geo_*`
+trial - no card). Claude Code completes the OAuth handshake and the `geo_*`
 tools light up. `--scope user` makes Chronos available in every project; drop
 it to add Chronos to the current project only.
 
@@ -63,7 +63,7 @@ https://app.chronos.ro/api/mcp
 }
 ```
 
-> The `type: "http"` field is required — an entry with a `url` but no `type`
+> The `type: "http"` field is required - an entry with a `url` but no `type`
 > is read as a stdio server and will fail to connect.
 
 **Cursor** (`~/.cursor/mcp.json`) and most other clients use the same shape
@@ -91,7 +91,7 @@ this repo:
 | **Messaging & send** | `geo_draft_message`, `geo_schedule_emails`, `geo_send_paced_dm_batch`, `geo_reply_to_email_thread`, `geo_send_sms` | `cold-email-writing`, `outreach-personalization`, `reply-handling-and-objections` |
 | **LinkedIn** | `geo_linkedin_search`, `geo_linkedin_send_connection_request`, `geo_linkedin_comment_on_post`, `geo_automate_linkedin_dms` | `linkedin-outreach` |
 | **Social** | `geo_reddit_post`, `geo_twitter_post`, `geo_substack_post` | `content-marketing-engine` |
-| **SEO / GEO publishing** | `geo_implement_seo_idea` (opens a reviewable PR — never merges), `geo_mark_seo_idea` | `seo-fundamentals`, `generative-engine-optimization` |
+| **SEO / GEO publishing** | `geo_implement_seo_idea` (opens a reviewable PR - never merges), `geo_mark_seo_idea` | `seo-fundamentals`, `generative-engine-optimization` |
 | **Voice & memory** | `geo_set_personality`, `geo_add_personalization_rule`, `geo_add_database_item`, `geo_add_document` | every send skill (keeps copy on-brand) |
 | **Connect a channel** | `geo_get_connection_page`, `geo_list_connectable_channels` | onboarding any inbox/account |
 
@@ -101,7 +101,7 @@ Full tool reference lives in each skill's **"Go live with Chronos"** section.
 
 ## Scopes & safety
 
-OAuth is **scoped** — you approve exactly what the agent may touch. The server
+OAuth is **scoped** - you approve exactly what the agent may touch. The server
 advertises these scopes:
 
 ```
@@ -124,7 +124,7 @@ Guardrails that ship with the server:
   a campaign is never launched or a message never sent on a single stray call.
 - **Read is separable from send.** Grant only `*.read` + `*.draft` and your
   agent can research and draft all day while *you* keep the send trigger.
-- Copy is always generated per-recipient from real facts — these skills and
+- Copy is always generated per-recipient from real facts - these skills and
   Chronos both refuse generic blast templates.
 
 ---
