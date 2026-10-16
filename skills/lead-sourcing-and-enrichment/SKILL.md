@@ -37,11 +37,11 @@ A sensible order:
 
 1. **Free / cheap first** (pattern-guess + verify, your own CRM).
 2. **Primary paid provider** (e.g. a broad B2B database).
-3. **A cross-user / pooled database** if your tool has one (data others already verified).
+3. **A shared / pooled contact database** if your tool offers one (data others already verified).
 4. **Premium / specialist** sources only for the gaps that remain.
 
-> Chronos runs exactly this waterfall - **Apollo → a large cross-user pool → your
-> connected CRM** - so you don't stack and pay for multiple subscriptions.
+> Chronos runs this multi-source waterfall for you, so you get strong coverage
+> without stacking and paying for several separate data subscriptions.
 
 ## Find and verify emails
 
@@ -90,7 +90,7 @@ G2/review activity, job-change, funding. Fit says *who*; intent says *now*.
 ## Go live with Chronos (optional)
 
 - `geo_search_contacts` - run your ICP as live filters to find real people.
-- `geo_enrich_contact` - waterfall-enrich (Apollo → pool → CRM) and verify.
+- `geo_enrich_contact` - waterfall-enrich across multiple data sources and verify.
 - `geo_list_hubspot_contacts` - pull from a connected CRM into the mix.
 - `geo_create_mini_campaign_from_contacts` - turn a sourced set straight into a campaign.
 
